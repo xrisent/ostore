@@ -11,16 +11,31 @@
     <header class="header">
       <div class="container">
         <div class="header-left">
-          <div class="burger">Бургер</div>
+          <div class="burger">
+            <a href="/about/about.html">О нас</a>
+          </div>
+          <button class="burger-btn">Бургер</button>
           <img src="https://ostore.kg/_nuxt/logo.nDmPZ4Rs.svg" alt="" />
         </div>
         <input type="text" placeholder="Найти" />
-        <div class="favourites">Избранное</div>
+        <div class="cart">Корзина</div>
       </div>
     </header>
     <main>
       <div class="container">
-        <a href="/about/about.html">Ссылка на страницу "О нас"</a>
+        <section class="cards">
+          <div class="card">
+            <div class="badge">Новинка</div>
+            <img src="http://localhost:3000/phone.png" alt="" />
+            <div class="info">
+              <h2>Honor X8c 8/128 Black</h2>
+              <div class="price">
+                <div class="oldPrice">22 490</div>
+                <div class="newPrice">22 090</div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
     <script src="./main.js"></script>

@@ -11,3 +11,43 @@
   align-items: center;
   color: white;
 }
+
+.header-left {
+  position: relative;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  z-index: 1;
+  background-color: white;
+  color: black;
+}
+
+.burger.active {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #edeff2;
+}
