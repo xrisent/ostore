@@ -51,3 +51,14 @@
 body {
   background-color: #edeff2;
 }
+
+.oldPrice {
+  text-decoration: line-through;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
