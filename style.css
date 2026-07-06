@@ -62,3 +62,32 @@ body {
   gap: 40px;
   justify-content: center;
 }
+
+.cart {
+  position: relative;
+}
+
+.cart-div {
+  display: none;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  z-index: 1;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.cart-div.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-el {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}

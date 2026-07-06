@@ -10,8 +10,8 @@
     },
     {
       "id": 2,
-      "title": "Honor X9d 8/256 Black",
-      "price": 42290,
+      "title": "Acers",
+      "price": 100,
       "discount": 20,
       "badge": "new",
       "image": "http://localhost:3000/phone2.png"
